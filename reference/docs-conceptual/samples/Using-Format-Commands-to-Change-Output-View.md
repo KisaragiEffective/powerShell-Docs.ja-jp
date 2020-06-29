@@ -170,7 +170,7 @@ Running Winmgmt             Windows Management Instrumentation
 Running WinRM               Windows Remote Management (WS-Management)
 ```
 
-`Format-Table` コマンドレットでは引き続きデータを切り捨てることもありますが、切る捨てられるのは画面の端だけです。 最後に表示されるもの以外のプロパティには、最長データ要素が正しく表示されるために必要なだけのサイズが与えられます。
+`Format-Table` コマンドレットでは引き続きデータを切り捨てることもありますが、切り捨てられるのは画面の端だけです。 最後に表示されるもの以外のプロパティには、最長データ要素が正しく表示されるために必要なだけのサイズが与えられます。
 
 ```powershell
 Get-Service -Name win* | Format-Table -Property Name,Status,StartType,DisplayName,DependentServices -AutoSize
