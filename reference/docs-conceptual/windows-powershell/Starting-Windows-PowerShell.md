@@ -127,7 +127,7 @@ Windows PowerShell の 32 ビット版を起動するには、次の手順のい
 - デスクトップで、右上隅にカーソルを移動し、 **[検索]** をクリックする。「**PowerShell x86**」と入力し、 **[Windows PowerShell (x86)]** をクリックします。
 - コマンド ラインで、次のように入力します。`%SystemRoot%\SysWOW64\WindowsPowerShell\v1.0\powershell.exe`
 
-#### <a name="in-windows-8"></a>In Windows® 8 の場合
+#### <a name="in-windows-8"></a>Windows® 8 の場合
 
 - **[スタート]** 画面で、右上隅にカーソルを移動し、 **[設定]** をクリックし、 **[タイル]** をクリックします。そして、 **[管理ツールを表示する]** スライダーを **[はい]** に移動させます。 次に「**PowerShell**」と入力し、 **[Windows PowerShell(x86)]** をクリックします。
 - Windows 8 の[リモート サーバー管理ツール](https://www.microsoft.com/download/details.aspx?id=28972)を実行している場合、 **[サーバー管理ツール]** メニューから [Windows PowerShell x86] を開くこともできます。 **[Windows PowerShell (x86)]** を選択します。
